@@ -1,1 +1,25 @@
-<p>Hello world</p>
+<head>
+<style>
+* {
+  text-align: center;
+}
+</style>
+
+<script>
+function changeText() {
+  document.getElementById("btn").hidden = true;
+  document.getElementById("msg").hidden = false;
+}
+
+</script>
+</head>
+
+<body>
+<h1>It is Alex's birthday</h1>
+<a id="btn" onclick="changeText()">Click here to enter special birthday site ---></a>
+<p id="msg" hidden="">
+  Bro, you thought I was actually gonna write some crazy birthday site? Let's be real here, it's only your 20th. 20th birthdays kinda blow. Maybe next year.
+  <br><br>
+  (happy birthday btw)
+</p>
+</body>
